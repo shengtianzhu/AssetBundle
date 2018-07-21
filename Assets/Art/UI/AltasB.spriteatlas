@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AltasB
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cb60edc2ecfc3694990518f890f1ea61, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f12fa430a399133418717301a831ba77, type: 3}
+  - {fileID: 21300000, guid: ea09267e6e3b40a42b133703cfe06f78, type: 3}
+  - {fileID: 21300000, guid: be97ad55b31865a458c2bcf7a3c86c9f, type: 3}
+  - {fileID: 21300000, guid: 5be046ee3415114469b4323dc29fb31f, type: 3}
+  - {fileID: 21300000, guid: 1b57963b8a9b73043baa811576213d7c, type: 3}
+  - {fileID: 21300000, guid: 98c5e0ea8a362d444969b25796e4a939, type: 3}
+  - {fileID: 21300000, guid: c7431efa883a9fe4f990356f58026a78, type: 3}
+  - {fileID: 21300000, guid: e4402aec81d6d3f4eabf26573fe2349e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_zb_txtb5
+  - UI_zb_txtb4
+  - UI_zb_txtb3
+  - UI_zb_txtb2
+  - UI_zb_txtb1
+  - UI_zb_txtb8
+  - UI_zb_txtb7
+  - UI_zb_txtb6
+  m_Tag: AltasB
+  m_IsVariant: 0

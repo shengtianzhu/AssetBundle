@@ -1,0 +1,10 @@
+altasa
+altasa.manifest
+altasb
+altasb.manifest
+Android
+Android.manifest
+ui1
+ui1.manifest
+ui2
+ui2.manifest

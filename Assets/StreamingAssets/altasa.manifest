@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 832133871
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c484d9af1904d5749991f69af6469353
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c9c86ed13f4b505871e88f9d42be5b7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/UI/AltasA.spriteatlas
+- Assets/Art/UI/txta/UI_zb_txtb16.png
+- Assets/Art/UI/txta/UI_zb_txtb12.png
+- Assets/Art/UI/txta/UI_zb_txtb10.png
+- Assets/Art/UI/txta/UI_zb_txtb11.png
+- Assets/Art/UI/txta/UI_zb_txtb13.png
+- Assets/Art/UI/txta/UI_zb_txtb9.png
+- Assets/Art/UI/txta/UI_zb_txtb14.png
+- Assets/Art/UI/txta/UI_zb_txtb15.png
+- Assets/Art/UI/txta/UI_zb_txtb17.png
+Dependencies: []

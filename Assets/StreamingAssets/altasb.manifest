@@ -1,0 +1,28 @@
+ManifestFileVersion: 0
+CRC: 2634797344
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f4d787259c4c1efb809d72984172092d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c9c86ed13f4b505871e88f9d42be5b7
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 687078895
+  Script: {instanceID: 0}
+Assets:
+- Assets/Art/UI/txtb/UI_zb_txtb5.png
+- Assets/Art/UI/txtb/UI_zb_txtb3.png
+- Assets/Art/UI/AltasB.spriteatlas
+- Assets/Art/UI/txtb/UI_zb_txtb8.png
+- Assets/Art/UI/txtb/UI_zb_txtb7.png
+- Assets/Art/UI/txtb/UI_zb_txtb1.png
+- Assets/Art/UI/txtb/UI_zb_txtb6.png
+- Assets/Art/UI/txtb/UI_zb_txtb4.png
+- Assets/Art/UI/txtb/UI_zb_txtb2.png
+Dependencies: []

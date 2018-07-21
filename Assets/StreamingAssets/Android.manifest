@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2546591952
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: altasa
+      Dependencies: {}
+    Info_1:
+      Name: altasb
+      Dependencies: {}
+    Info_2:
+      Name: ui1
+      Dependencies:
+        Dependency_0: altasa
+    Info_3:
+      Name: ui2
+      Dependencies: {}
