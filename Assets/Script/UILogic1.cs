@@ -44,7 +44,8 @@ public class UILogic1 : UILogicBase
         ResourceManager.Instance.LoadResource<SpriteAtlas>("altasb", "AltasB",
             (SpriteAtlas a) =>
             {
-                m_UIDev.SetImage(a.GetSprite("UI_zb_txtb7"));
+                Debug.Log("aaaaaaaaaa");
+                m_UIDev.SetImage(a.GetSprite("bg"));
             });
     }
 }

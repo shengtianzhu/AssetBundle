@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a79aef2fd17fc644cbdddd3d047e4e9f
+guid: 707d6de23f942974f84948e289dd1369
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -73,12 +73,12 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c0f40be1a5a7e6c48a0895c23afcc693
+    spriteID: 4de722491a451d34f910604a171862fc
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
   userData: 
-  assetBundleName: altasa
+  assetBundleName: altasb
   assetBundleVariant: 

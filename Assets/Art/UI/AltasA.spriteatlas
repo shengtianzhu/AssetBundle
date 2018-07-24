@@ -18,7 +18,18 @@ SpriteAtlas:
       readable: 0
       crunchedCompression: 0
       sRGB: 1
-    platformSettings: []
+    platformSettings:
+    - serializedVersion: 2
+      m_BuildTarget: Standalone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 29
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
     packingParameters:
       serializedVersion: 2
       padding: 2
@@ -32,24 +43,44 @@ SpriteAtlas:
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 92159e8386b73ef4c9fa51ce6115dfc2, type: 3}
+  - {fileID: 21300000, guid: 6c8913fe4bcf93e4fb54eb60ff1fcc1e, type: 3}
+  - {fileID: 21300000, guid: 768ec9debf9b3034cb78ca91bc0da679, type: 3}
+  - {fileID: 21300000, guid: e8dfd944935dae042b06cecd99136c05, type: 3}
+  - {fileID: 21300000, guid: 98ed9da243c239242a607f2f6b500d02, type: 3}
+  - {fileID: 21300000, guid: 7f7451f0825341e4d8bc77127fbc42a4, type: 3}
+  - {fileID: 21300000, guid: 4d7f5443d48a11c43a217970cb828e92, type: 3}
+  - {fileID: 21300000, guid: aec5c47a9704d9f428e335ca9519b10d, type: 3}
+  - {fileID: 21300000, guid: cd26b773475fe304199bfec8022d6f4c, type: 3}
+  - {fileID: 21300000, guid: ae75500c40c73a54eae15533f22053da, type: 3}
+  - {fileID: 21300000, guid: 2932a81120435db48b0af66878eda212, type: 3}
   - {fileID: 21300000, guid: 6761e4e53f4941e46b97a9ab61e73b0f, type: 3}
-  - {fileID: 21300000, guid: 0885ed0d77f59fb4ebe14eff8a3c5f49, type: 3}
-  - {fileID: 21300000, guid: eb7d66e6b7fe08f44b7c146acd31ea5a, type: 3}
   - {fileID: 21300000, guid: ea9fb2a9a481ce047bedf60204a48995, type: 3}
-  - {fileID: 21300000, guid: 848484b36d9dab448b7902ce0b8a4f2b, type: 3}
+  - {fileID: 21300000, guid: eb7d66e6b7fe08f44b7c146acd31ea5a, type: 3}
+  - {fileID: 21300000, guid: 0885ed0d77f59fb4ebe14eff8a3c5f49, type: 3}
+  - {fileID: 21300000, guid: d1c3e06d19ce0d2498c9d4ccc7440a24, type: 3}
   - {fileID: 21300000, guid: d53e7c5fc1b4db04996ce40e2ea84d41, type: 3}
   - {fileID: 21300000, guid: 46282f9d38bce6948bf11b7d62f745d9, type: 3}
   - {fileID: 21300000, guid: 40fd480e6ba03234f9b3b59909771e85, type: 3}
-  - {fileID: 21300000, guid: d1c3e06d19ce0d2498c9d4ccc7440a24, type: 3}
   m_PackedSpriteNamesToIndex:
+  - UI_zb_fj_bg10
+  - UI_zb_fj_bg11
+  - UI_zb_fj_bg9
+  - UI_zb_fj_bg8
+  - UI_zb_fj_bg5
+  - UI_zb_fj_bg4
+  - UI_zb_fj_bg7
+  - UI_zb_fj_bg6
+  - UI_zb_fj_bg1
+  - UI_zb_fj_bg3
+  - UI_zb_fj_bg2
+  - UI_zb_txtb21
+  - UI_zb_txtb20
   - UI_zb_txtb12
   - UI_zb_txtb13
-  - UI_zb_txtb10
   - UI_zb_txtb11
-  - UI_zb_txtb16
   - UI_zb_txtb17
   - UI_zb_txtb14
   - UI_zb_txtb15
-  - UI_zb_txtb9
   m_Tag: AltasA
   m_IsVariant: 0
