@@ -65,7 +65,9 @@ public class UILogicBase{
     {
         ResourceManager.Instance.LoadResource<GameObject>(UI_PATH, UI_Name, 
             (GameObject a) => {
+                Debug.Log("LoadResource qqqqqqqq");
                 m_UIObj = GameObject.Instantiate(a);
+                Debug.Log("LoadResource ccccccccc");
                 m_UIObj.transform.SetParent(UIManager.Instance.m_aUIRoot, false);
                 m_UIObj.transform.localPosition = Vector3.zero;
                 m_UIObj.transform.localScale = Vector3.one;
