@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Main : MonoBehaviour {
 
     public Text Text1;
@@ -19,7 +20,7 @@ public class Main : MonoBehaviour {
         ResourceManager.Instance.StreamingAssetsPath = Application.streamingAssetsPath;
         ResourceManager.Instance.PersistentDataPath = Application.persistentDataPath;
         ResourceManager.Instance.DataPath = Application.dataPath;
-        ResourceManager.Instance.RunAssetsPath = ResourceManager.Instance.PersistentDataPath;
+        ResourceManager.Instance.RunAssetsPath = ResourceManager.Instance.StreamingAssetsPath;
 
         Text1.text = ResourceManager.Instance.StreamingAssetsPath;
         Text2.text = ResourceManager.Instance.PersistentDataPath;
@@ -27,7 +28,7 @@ public class Main : MonoBehaviour {
         Debug.Log("PersistentDataPath = " + ResourceManager.Instance.PersistentDataPath);
         //StartCoroutine(CopyToPersistentDataPath());
 
-        //ResourceManager.Instance.LoadAssetBundleManifest();
+        ResourceManager.Instance.LoadAssetBundleManifest();
         
     }
 	
@@ -47,7 +48,12 @@ public class Main : MonoBehaviour {
 
         //m_aHttpDownLoad = new HttpDownLoad();
         //m_aHttpDownLoad.DownLoad("http://192.168.17.99:280/GDC%20Unreal%20Engine.mp4", Application.persistentDataPath, null);
-        StartCoroutine(DownLoadRes());
+        //StartCoroutine(DownLoadRes());
+
+        ResourceManager.Instance.LoadScene("testscene", () => 
+        {
+            SceneManager.LoadScene("Test");
+        });
     }
 
     public void OnClick2()

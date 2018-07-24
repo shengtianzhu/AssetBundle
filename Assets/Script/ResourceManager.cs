@@ -62,12 +62,44 @@ public class ResourceManager{
             CallBack(aObj);
     }
 
+
+    public void LoadScene(string strAssetBundleName, System.Action CallBack)
+    {
+        //获取依赖
+        string[] dependence = aAssetBundleManifest.GetAllDependencies(strAssetBundleName);
+        for (int i = 0; i < dependence.Length; ++i)
+        {
+            if (mapAssetBundle.ContainsKey(dependence[i]))
+                continue;
+
+            string _Path = System.IO.Path.Combine(RunAssetsPath, dependence[i]);
+            Debug.Log("_Path = " + _Path);
+            AssetBundle _a = AssetBundle.LoadFromFile(_Path);
+
+            if (null != _a)
+            {
+                mapAssetBundle.Add(dependence[i], _a);
+                Debug.Log(_a.name);
+            }
+            else
+            {
+                Debug.Log(_Path + " Is Null ");
+            }
+        }
+        string aPath = System.IO.Path.Combine(RunAssetsPath, strAssetBundleName);
+        AssetBundle a = AssetBundle.LoadFromFile(aPath);
+        
+        Debug.Log("bbbbbbbbb");
+        if (null != CallBack)
+            CallBack();
+    }
+
     public void LoadAssetBundleManifest()
     {
         if (null != aAssetBundleManifest)
             return;
 
-        AssetBundle b = AssetBundle.LoadFromFile(RunAssetsPath + "/Android");
+        AssetBundle b = AssetBundle.LoadFromFile(RunAssetsPath + "/StandaloneWindows");
         aAssetBundleManifest = b.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
 
         if(null != aAssetBundleManifest)
